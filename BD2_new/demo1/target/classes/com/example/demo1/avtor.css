@@ -1,0 +1,110 @@
+.fon{
+    -fx-background-image: url(../pic/fon_avtoriz.png);
+    -fx-background-position: center center;
+}
+.fild{
+    -fx-background-color: d9d9d9;
+    -fx-background-radius:50;
+    -fx-font-color: bbbbbb;
+}
+.button{
+    -fx-background-color: d9d9d9;
+    -fx-background-radius:50;
+}
+
+.fonOb{
+    -fx-background-image: url(../pic/fonn.PNG);
+    -fx-background-position: center center;
+    -fx-background-size: 1200 800;
+}
+.button_razdel{
+    -fx-background-color: d9d9d9;
+    -fx-background-radius: 35 35 0 0;
+}
+.poisk_razdel{
+    -fx-background-color: e9e5d9;
+    -fx-background-radius: 35 0 0 0;
+}
+.table{
+    -fx-background-color: d9d9d9;
+    -fx-background-radius:10 10 10 10 ;
+}
+.izmenen{
+    -fx-background-image: url(../pic/izmen.png);
+    -fx-background-position: center center;
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat ;
+    -fx-background-radius:10 10 10 10 ;
+}
+.dobavl{
+    -fx-background-image: url(../pic/dob.png);
+    -fx-background-position: center center;
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat ;
+    -fx-background-radius:10 10 10 10 ;
+}
+.obn{
+    -fx-background-image: url(../pic/obn.png);
+    -fx-background-position: center center;
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat ;
+    -fx-background-radius:10 10 10 10 ;
+}
+.ydol{
+    -fx-background-image: url(../pic/close-icon.jpg);
+    -fx-background-position: center center;
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat ;
+    -fx-background-radius:10 10 10 10 ;
+}
+
+.opacity{
+    -fx-background-color:D9D9D9;
+    -fx-background-position: center center;
+    -fx-background-radius: 50;
+    /*-fx-background-color: linear-gradient(-fx-opacity 50%, D9D9D9);*/
+}
+
+.regForm{
+    -fx-background-image: url(../pic/regForm.PNG);
+    -fx-background-position: center center;
+}
+
+.fild2{
+    -fx-background-color: d9d9d9;
+    -fx-background-radius:50;
+    -fx-font-color: bbbbbb;
+    -fx-opacity: 80%;
+}
+.butt_kod{
+    -fx-background-image: url(../pic/butt.png);
+    -fx-background-position: center center;
+    -fx-background-size: 90 60;
+    -fx-background-repeat: no-repeat ;
+}
+
+.form_osn{
+    -fx-background-image: url(../pic/form_osn.PNG);
+    -fx-background-position: center center;
+    -fx-background-size: 1200 800;
+}
+
+.modal_dob_fon{
+    /*-fx-background-radius:50 ;*/
+    -fx-background-color: d0bc9f;
+    /*-fx-background-image: url(../pic/modal_dobav.png);
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat ;*/
+    -fx-background-size: 450 250;
+}
+.modal_dob_fon2{
+    -fx-background-radius:10 ;
+    -fx-background-color: e9e5d9;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat ;
+    -fx-background-size: 400 200;
+}
+.button_modal_v{
+    -fx-background-color: d0bc9f;
+    -fx-background-radius: 0 0 10 10;
+}

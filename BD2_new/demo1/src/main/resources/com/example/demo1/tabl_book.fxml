@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" style="-fx-background-radius: 30;" styleClass="fonOb" stylesheets="@avtor.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.MainController">
+   <children>
+      <Button fx:id="Orders" layoutX="450.0" layoutY="71.0" mnemonicParsing="false" onAction="#Clik_Orders" prefHeight="45.0" prefWidth="123.0" styleClass="button_razdel" text="Заказы" textFill="#615050">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Client" layoutX="326.0" layoutY="71.0" mnemonicParsing="false" onAction="#Clik_Client" prefHeight="45.0" prefWidth="123.0" styleClass="button_razdel" text="Заказчик" textFill="#615050">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Ganre" layoutX="202.0" layoutY="71.0" mnemonicParsing="false" onAction="#Clik_Ganre" prefHeight="45.0" prefWidth="123.0" styleClass="button_razdel" text="Жанр" textFill="#615050">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Avtor" layoutX="78.0" layoutY="71.0" mnemonicParsing="false" onAction="#Clik_Avtor" prefHeight="45.0" prefWidth="123.0" styleClass="button_razdel" text="Автор" textFill="#615050">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="Book" layoutX="574.0" layoutY="71.0" mnemonicParsing="false" onAction="#Clik_Book" prefHeight="45.0" prefWidth="123.0" styleClass="button_razdel" text="Книги" textFill="#615050">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Button>
+      <Line endX="530.0" layoutX="163.0" layoutY="114.0" startX="-81.0" stroke="#eeefbb" strokeWidth="7.0" />
+      <TextField layoutX="900.0" layoutY="69.0" prefHeight="45.0" prefWidth="286.0" promptText="    Поиск . . ." styleClass="poisk_razdel">
+         <font>
+            <Font name="Georgia" size="19.0" />
+         </font>
+      </TextField>
+      <AnchorPane layoutX="79.0" layoutY="159.0" opacity="0.85" prefHeight="550.0" prefWidth="618.0" styleClass="table">
+         <children>
+            <TableView fx:id="tabl_book" layoutY="-22.0" prefHeight="592.0" prefWidth="618.0" styleClass="table" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="900.0" layoutY="129.0" mnemonicParsing="false" onAction="#showDialogBook" prefHeight="40.0" prefWidth="39.0" styleClass="dobavl" />
+      <Button layoutX="900.0" layoutY="176.0" mnemonicParsing="false" onAction="#IzmenDialogBook" prefHeight="40.0" prefWidth="39.0" styleClass="izmenen" />
+      <Button layoutX="900.0" layoutY="270.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" styleClass="ydol" />
+      <Button layoutX="900.0" layoutY="223.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="39.0" styleClass="obn" />
+      <PieChart layoutX="819.0" layoutY="403.0" prefHeight="315.0" prefWidth="327.0" title="Соотношение книг по автору" />
+      <Button fx:id="CreatAkk" layoutX="869.0" layoutY="355.0" mnemonicParsing="false" onAction="#Butt_CreatAkk" prefHeight="28.0" prefWidth="277.0" styleClass="opacity" stylesheets="@avtor.css" text="Создать аккаунт . . .">
+         <font>
+            <Font name="Candara Bold" size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6666666865348816" green="0.43921568989753723" blue="0.43921568989753723" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.1599999964237213" green="0.07519999891519547" blue="0.07519999891519547" opacity="0.5916030406951904" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>
